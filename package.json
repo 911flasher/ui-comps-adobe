@@ -1,0 +1,68 @@
+{
+  "name": "@911flasher/ui-comps-adobe",
+  "version": "1.0.0",
+  "description": " UI Components Framework and JSFL builder for Adobe Animate",
+  "main": "src/phasercomps.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "analyze": "source-map-explorer 'dist/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/911flasher/ui-comps-adobe.git"
+  },
+  "publishConfig":{
+    "registry":"https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "ui",
+    "user interface",
+    "jsfl",
+    "animate",
+    "components",
+    "fla",
+    "xfl",
+    "buttons",
+    "progress bar",
+    "scroll bar",
+    "FlashLib",
+    "Flash",
+    "PIXI.JS",
+    "JavaScript",
+    "Animate CC",
+    "Adobe"
+  ],
+  "author": "911flasher '911flasher' Bystrov <911flasher@gmail.com>",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/911flasher/ui-comps-adobe/issues"
+  },
+  "files": [
+    "dist/",
+    "src/*.js",
+    "jsfl/ExportToPhaser.jsfl",
+    "*.d.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "source-map-explorer": "^2.4.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "phaser": "^3.21.0"
+  },
+  "dependencies": {},
+  "deprecated": false
+}
