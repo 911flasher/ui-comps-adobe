@@ -1,6 +1,6 @@
 {
   "name": "@911flasher/ui-comps-adobe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " UI Components Framework and JSFL builder for Adobe Animate",
   "main": "src/phasercomps.js",
   "types": "index.d.ts",
